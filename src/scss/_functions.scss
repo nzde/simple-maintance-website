@@ -5,3 +5,11 @@
         @return #fff;
         }
     }
+
+@function link-color($bg-color){
+    @if(lightness($bg-color) > 50){
+        @return rgb(99, 98, 98);
+    }   @else {
+        @return rgb(194, 194, 194);
+        }
+    }
