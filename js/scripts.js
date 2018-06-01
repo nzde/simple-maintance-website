@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e;e=(new Date).getFullYear(),document.getElementById("act-year").innerText="Copyrights "+e});
